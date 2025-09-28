@@ -15,10 +15,14 @@
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
+    "@codemirror/state": "^6.5.2",
+    "@codemirror/view": "^6.38.3",
+    "@strapi/admin": "5.24.1",
     "@strapi/plugin-cloud": "5.24.1",
     "@strapi/plugin-users-permissions": "5.24.1",
     "@strapi/strapi": "5.24.1",
-    "better-sqlite3": "11.3.0",
+    "date-fns": "2.30.0",
+    "pg": "8.11.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
